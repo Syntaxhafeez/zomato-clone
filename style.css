@@ -1,0 +1,582 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.img1 {
+    background-image: url(zomato-img1.avif);
+    height: 420px;
+    background-size: cover;
+}
+.app {
+    color: white;
+    font-family: Arial;
+}
+
+.app i {
+    color: white;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+.app:hover {
+    cursor: pointer;
+}
+
+.nav-items {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    color: white;
+    margin-right: 80px;
+    margin-top: -10px;
+    font-family: system-ui;
+    
+}
+.nav-items p {
+    padding-left: 40px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.zomato-txt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: Museo Sans Rounded 900;
+    font-weight: 700;
+    margin-top: 30px;
+    font-size: 2.5rem;
+}
+
+.zomato-para {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+}
+
+.nav-location {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 40px;
+    height: 50px;
+    margin-left: -450px;
+}
+
+.nav-location i {
+    font-size: 1.2rem;
+    color: #ff7e8b;
+    background-color: white;
+    height: 50px;
+    width: 30px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px 0 0 10px;
+}
+.search-icon i {
+    color: rgb(110, 110, 110);
+    border: none;
+    border-radius: 0 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-icon {
+    height: 50px;
+    width: 20px;
+}
+.search-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    height: 50px;
+    width: 400px;
+    margin-top: -50px;
+    padding-left: 15px;
+    border: none;
+    border-radius: 0 10px 10px 0;
+}
+.location {
+    height: 50px;
+    width: 180px;
+    border: none;
+    color: rgb(121, 121, 121);
+}
+
+.image-head {
+    width: 90%;
+    height: 250px;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.2);
+}
+.body-img1 {
+    background-image: url(zomato-img2.avif);
+    height: 170px;
+    width: 360px;
+    background-size: cover;
+    border-radius: 20px 20px 0 0;
+    padding-left: 5px;
+    border: 1px solid gray;
+    margin-left: -15px;
+    cursor: pointer;
+}
+.body-img2 {
+    background-image: url(zomato-img3.avif);
+    height: 170px;
+    width: 360px;
+    background-size: cover;
+    border-radius: 20px 20px 0 0;
+    padding-left: 5px;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+.body-img3 {
+    background-image: url(zomato-img4.jpeg);
+    height: 170px;
+    width: 360px;
+    background-size: cover;
+    border-radius: 20px 20px 0 0;
+    padding-left: 5px;
+    border: 1px solid gray;
+    margin-right: -15px;
+    cursor: pointer;
+}
+
+.txth1 {
+    display: flex;
+    margin-top: 180px;
+    margin-left: 20px;
+    font-family: arial;
+    font-weight: 200;
+    font-size: 1.3rem;
+}
+.txt-para {
+    display: flex;
+    margin-top: 0px;
+    margin-left: 20px;
+    font-family: system-ui;
+    color: rgb(127, 127, 127);
+}
+
+.banner-img {
+    background-image: url(zomato-img5.png);
+    background-size: cover;
+    width: 90%;
+    height: 260px;
+    margin-left: 5%;
+    cursor: pointer;
+}
+
+.hotelh1 {
+    font-family: system-ui;
+    font-size: 1.8rem;
+    margin-left: 80px;
+    font-weight: 500;
+}
+
+.hotel-list {
+    height: 350px;
+    width: 88%;
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: wheat; */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin-left: 75px;
+}
+
+.hotel1 {
+    background-image: url(hotel1.avif);
+    background-size: cover;
+    display: flex;
+    height: 250px;
+    width: 325px;
+    border-radius: 20px 20px 20px 20px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+.hotel2 {
+    background-image: url(hotel2.avif);
+    background-size: cover;
+    display: flex;
+    height: 250px;
+    width: 325px;
+    border-radius: 20px 20px 20px 20px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+.hotel3 {
+    background-image: url(hotel3.avif);
+    background-size: cover;
+    display: flex;
+    height: 250px;
+    width: 325px;
+    border-radius: 20px 20px 20px 20px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+.hotel4 {
+    background-image: url(hotel4.avif);
+    background-size: cover;
+    display: flex;
+    height: 250px;
+    width: 325px;
+    border-radius: 20px 20px 20px 20px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+.hotel5 {
+    background-image: url(hotel5.avif);
+    background-size: cover;
+    display: flex;
+    height: 250px;
+    width: 325px;
+    border-radius: 20px 20px 20px 20px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+.hotel6 {
+    background-image: url(hotel6.avif);
+    background-size: cover;
+    display: flex;
+    height: 250px;
+    width: 325px;
+    border-radius: 20px 20px 20px 20px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+.hotel7 {
+    background-image: url(hotel7.avif);
+    background-size: cover;
+    display: flex;
+    height: 250px;
+    width: 325px;
+    border-radius: 20px 20px 20px 20px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+.hotel8 {
+    background-image: url(hotel8.avif);
+    background-size: cover;
+    display: flex;
+    height: 250px;
+    width: 325px;
+    border-radius: 20px 20px 20px 20px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+.hotel9 {
+    background-image: url(hotel9.avif);
+    background-size: cover;
+    display: flex;
+    height: 250px;
+    width: 325px;
+    border-radius: 20px 20px 20px 20px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+.hotel10 {
+    background-image: url(hotel10.avif);
+    background-size: cover;
+    display: flex;
+    height: 250px;
+    width: 325px;
+    border-radius: 20px 20px 20px 20px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+.hotel11 {
+    background-image: url(hotel11.avif);
+    background-size: cover;
+    display: flex;
+    height: 250px;
+    width: 325px;
+    border-radius: 20px 20px 20px 20px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+.hotel12 {
+    background-image: url(hotel12.avif);
+    background-size: cover;
+    display: flex;
+    height: 250px;
+    width: 325px;
+    border-radius: 20px 20px 20px 20px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.hotel-list h2 {
+    display: flex;
+    margin-top: 260px;
+    margin-left: -15px;
+    width: 500px;
+    font-size: 1.2rem;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.board-para1 {
+    margin-left: -500px;
+    margin-top: 285px;
+}
+.board-para2 {
+    margin-left: -168px;
+    margin-top: 308px;
+}
+.board-para3 {
+    margin-left: -148px;
+    margin-top: 308px;
+}
+.board-para4 {
+    margin-left: -148px;
+    margin-top: 308px;
+}
+.km {
+    margin-left: 140px;
+    margin-top: 310px;
+}
+
+.price {
+    margin-left: -50px;
+    margin-top: 265px;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.zomato-app {
+    display: flex;
+    height: 400px;
+    max-width: 900px;
+    background-color: #fffcf4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-left: 150px
+}
+
+.image-section {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.mobile-image {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.text-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -50px;
+}
+
+.text-section h1 {
+    font-size: 2.5em;
+    font-family: system-ui;
+    font-weight: 500;
+    margin: 0;
+    color: #333;
+}
+
+.text-section p {
+    color: #555;
+    margin-top: 10px;
+    font-family: arial;
+}
+
+.input-options {
+    margin: 20px 0;
+}
+
+.input-options label {
+    margin-right: 20px;
+    color: #333;
+    font-size: 1em;
+    font-family: arial;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.input-group input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.input-group button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    background-color: #fc5864;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.input-group button:hover {
+    background-color: #e04c55;
+}
+
+.download-text {
+    font-size: 0.9em;
+    font-family: arial;
+    color: #a8a8a8;
+    margin-bottom: 10px;
+}
+
+.app-buttons img {
+    max-width: 140px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.app-buttons img:last-child {
+    margin-right: 0;
+}
+
+.footer {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: #4a4a4a;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-logo {
+    flex: 1 1 100%;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.footer-logo h2 {
+    font-size: 38px;
+    font-weight: bold;
+    color: #333;
+}
+
+.footer-columns {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex: 1 1 100%;
+}
+
+.footer-column {
+    flex: 1 1 180px;
+    margin: 20px 0;
+}
+
+.footer-column h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #000;
+    margin-left: 40px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin-left: 40px;
+    font-family: arial;
+    font-size: 1.3rem;
+}
+
+.footer-column ul li {
+    margin-bottom: 8px;
+}
+
+.footer-column ul li a {
+    text-decoration: none;
+    color: #4a4a4a;
+    font-size: 14px;
+}
+
+.footer-column ul li a:hover {
+    color: #000;
+}
+
+.social-links a {
+    margin-right: 10px;
+    font-size: 24px;
+    color: #4a4a4a;
+}
+
+.social-links a:hover {
+    color: #000;
+}
+
+.app-buttons img {
+    width: 120px;
+    margin-top: 15px;
+}
+
+.footer-bottom {
+    border-top: 1px solid #ddd;
+    margin-top: 30px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 12px;
+    color: #7a7a7a;
+}
+
+.country-language {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.country-selector img {
+    width: 24px;
+    height: 16px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.country-selector select,
+.language-selector select {
+    padding: 5px;
+    font-size: 14px;
+    margin-right: 20px;
+}
+
+.language-selector i {
+    font-size: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.watermark {
+    font-size: 0.9rem;
+    font-family: system-ui;
+    font-weight: 500;
+    color: #4a4a4a;
+}
